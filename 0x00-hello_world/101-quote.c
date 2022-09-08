@@ -3,7 +3,7 @@
 /**
  * main - prints to string
  * Description: Prints "and that piece of art is useul.." without puts
- * Return: 1
+ * Return: Always 1 (Success)
  */
 
 int main(void)
