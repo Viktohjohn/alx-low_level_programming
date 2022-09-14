@@ -1,4 +1,4 @@
-#incude "main.h"
+#include "main.h"
 /**
  * _islower - entry point
  * Description: checks for lowercase characters
