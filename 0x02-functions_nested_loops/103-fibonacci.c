@@ -1,5 +1,7 @@
 #include <stdio.h>
-/** main - Gets the sum of even fibonacci numbers up to 4000000.
+/**
+ * main - Gets the sum of even fibonacci numbers up to 4000000.
+ *
  * Return: Always o.
  */
 
