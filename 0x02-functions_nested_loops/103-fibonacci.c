@@ -10,7 +10,7 @@ int main(void)
 
 	while (1)
 	{
-		sum i + j;
+		sum = i + j;
 		if (sum > 4000000)
 			break;
 
@@ -20,6 +20,6 @@ int main(void)
 		i = j;
 		j = sum;
 	}
-	printf("%.of\n", total);
+	printf("%.0f\n", total);
 	return (0);
 }
