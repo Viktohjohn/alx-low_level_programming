@@ -1,4 +1,4 @@
-i#include "main.h"
+#include "main.h"
 
 /**
  * is_prime - Delects if an input number is a prime number.
