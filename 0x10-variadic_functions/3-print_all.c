@@ -51,7 +51,3 @@ void print_all(const char * const format, ...)
 	}
 	printf("\n"), va_end(valist);
 }
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
