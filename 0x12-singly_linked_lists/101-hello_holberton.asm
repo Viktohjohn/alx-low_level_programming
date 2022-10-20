@@ -1,13 +1,15 @@
-ection .data
+SECTION .data
+msg:	db "Hello, Holberton", 0
+fmt:	db "%s", 10, 0
 
-    message db "Hello, Holberton", 10, 0
-
-section .text
-
-global main
+	SECTION .text
+	extern printf
+	global main
 main:
-    mov rax, 1
-    mov rdi, 1
-    mov rsi, message
-    mov rdx, 17
-    syscall
+	mov esi, msg
+	mov edi, fmt
+	mov eax, 0
+	call printf
+
+	mov eax, 0
+	ret
